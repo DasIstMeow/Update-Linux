@@ -48,7 +48,7 @@ update-linux
    Summary:        Tool to quickly update your linux system
 
    License:        GPLv3
-   URL:            https://github.com/DasIstTobias/Update-Linux
+   URL:            https://github.com/DasIstMeow/Update-Linux
    Source0:        update_linux-1.0.tar.gz
 
    BuildRequires:  python3-devel
@@ -78,10 +78,10 @@ update-linux
    %{python3_sitelib}/update_linux-%{version}-py*.egg-info
 
    %changelog
-   * $(LANG=C date "+%a %b %d %Y") DasIstTobias placeholder@example.com - %{version}-%{release}
+   * $(LANG=C date "+%a %b %d %Y") DasIstMeow placeholder@example.com - %{version}-%{release}
    - Update to version %{version}
 
-   * Sun May 06 2025 tobias@randombytes placeholder@example.com - 0.1.0-1
+   * Sun May 06 2025 meow@randombytes placeholder@example.com - 0.1.0-1
    - Initial RPM package build.
    ```
 8. Build the .rpm File "rpmbuild -ba ~/rpmbuild/SPECS/update-linux.spec"
@@ -90,7 +90,7 @@ update-linux
 ## Build the .deb package yourself
 (In Docker)
 1. Install Docker
-2. Clone Repository "git clone https://github.com/DasIstTobias/Update-Linux.git"
+2. Clone Repository "git clone https://github.com/DasIstMeow/Update-Linux.git"
 3. Move in repository "cd Update-Linux"
 4. Create a Dockerfile "nano Dockerfile" Example File:
    ```
