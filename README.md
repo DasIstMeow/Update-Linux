@@ -32,7 +32,7 @@ update-linux
 ## Build the .rpm package yourself
 (On openSUSE Tumbleweed)
 1. Install Tools "sudo zypper install rpmbuild python3-setuptools python3-devel"
-2. Clone Repository "git clone https://github.com/DasIstTobias/Update-Linux.git"
+2. Clone Repository "git clone https://github.com/DasIstMeow/Update-Linux.git"
 3. Move in repository "cd Update-Linux"
 4. Create Build directory "mkdir -p ~/rpmbuild/{SOURCES,SPECS,BUILD,RPMS,SRPMS}"
 5. Create Source "python setup.py sdist --formats=gztar"
